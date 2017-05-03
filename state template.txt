@@ -1,0 +1,41 @@
+
+#here's the template for configuring a state. remember file structure.
+
+state={
+	id=#state id
+	name="STATE_id"     #ex. "STATE_65
+	manpower = #RANDOM. NUMBERS.
+	
+	state_category = #see the wiki for this one
+	resources={
+		steel=112
+		aluminium=22
+		#pretty straight-forward
+	}
+
+	history={
+		owner = #country tag
+		victory_points = {
+			#province value
+			# ex. 6786 5 amkes province 6786 have 5 victory points
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			air_base = 10
+			575 = {
+			naval_base = 6
+			#i would just mess around here...........or see the wiki
+			}
+		}
+		add_core_of = #country tag
+		
+		#meh. just leave this blank
+		
+	}
+
+
+	provinces={
+		#list all province id's with spaces between them
+	}
+}
